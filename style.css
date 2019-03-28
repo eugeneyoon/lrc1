@@ -1,0 +1,37 @@
+.columnBox{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  background-color: #f1f1f1;
+  justify-content: space-around;
+  align-items: stretch;
+  margin-bottom: 10px;
+}
+
+.weekView{
+  padding: 0.8em 1.2em;
+  border-style: solid;
+  border-color: black;
+  text-align: center;
+}
+
+.weekView:hover {
+  background-color: #ccc;
+}
+
+.wordBox{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  /* grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%; */
+  background-color: #ccc;
+}
+
+.words{
+  padding: 0.8em 1.2em;
+  border-style: solid;
+  border-color: black;
+  text-align: center;
+}
+
+.words:hover {
+  background-color: #aaa;
+}
